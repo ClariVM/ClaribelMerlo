@@ -1,0 +1,12 @@
+.row{
+    background-color: #E9F5FF;
+    text-align: center;
+}
+footer p{
+    position: relative;
+ top: 15px;
+}
+
+footer{
+    box-shadow: 2px -2px 5px #fff;
+}

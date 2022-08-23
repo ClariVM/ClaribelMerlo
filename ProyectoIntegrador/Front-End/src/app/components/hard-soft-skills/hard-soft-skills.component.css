@@ -1,0 +1,10 @@
+.row{
+text-align: center;
+background-color: #E1F0FD;
+font-family: 'Sen', sans-serif;
+border: 4px solid #038DFF;
+}
+
+h1{
+border-bottom: 4px solid #038DFF;
+}
