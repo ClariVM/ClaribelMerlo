@@ -11,7 +11,8 @@
     </div>
     <div class="col-sm-12 col-md-1 col-lg-1" id="ingresar">
         <a href="/login">
-        <button type="button" class="btn btn-dark">INGRESAR</button></a>
+        <button type="button" class="btn btn-dark" (click)="login()" *ngIf="!isLogged">INGRESAR</button></a>
+        <button type="button" class="btn btn-dark"(click)="onLogOut()" *ngIf="isLogged">CERRAR SESIÓN</button>
     </div>
 </div>
 <div class="row">
